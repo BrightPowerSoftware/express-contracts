@@ -3,16 +3,20 @@ express-contracts
 
 Express.js plugin for checking request and response with rho-contracts
 
+Installation
+------------
+
+Add the following to your `package.json` dependencies:
+
+```
+    "rho-contracts-js": "git+ssh://git@github.com:BrightPowerSoftware/rho-contracts-js.git#v1.3.0",
+    "express-contracts": "git+ssh://git@github.com:BrightPowerSoftware/express-contracts.git#3.0.1"
+```
+making sure to specify the most recent versions of each.
+
 
 Usage
 -----
-
-You must use the Body Labs package, `rho-contracts-js`:
-```js
-  "dependencies": {
-    "rho-contracts-js": "^1.3.0"
-  }
-```
 
 ```js
 var c = require('rho-contracts-js'),
@@ -82,15 +86,4 @@ if (err.problemField === 'body') {
 }
 ```
 
-
-Installation
-------------
-
-Add the following to your `package.json` dependencies:
-
-```
-    "rho-contracts-js": "git+ssh://git@github.com:BrightPowerSoftware/rho-contracts-js.git#v1.3.0",
-    "express-contracts": "git+ssh://git@github.com:BrightPowerSoftware/express-contracts.git#3.0.1"
-```
-making sure to specify the most recent versions of each.
 
