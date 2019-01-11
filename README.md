@@ -7,15 +7,15 @@ Express.js plugin for checking request and response with rho-contracts
 Usage
 -----
 
-You must use the Body Labs package, `rho-contracts-fork`:
+You must use the Body Labs package, `rho-contracts-js`:
 ```js
   "dependencies": {
-    "rho-contracts-fork": "^1.3.0"
+    "rho-contracts-js": "^1.3.0"
   }
 ```
 
 ```js
-var c = require('rho-contracts-fork'),
+var c = require('rho-contracts-js'),
     ec = require('express-contracts');
 
 var cc = {};
@@ -86,27 +86,11 @@ if (err.problemField === 'body') {
 Installation
 ------------
 
-```console
-npm install rho-contracts-fork express-contracts
+Add the following to your `package.json` dependencies:
+
 ```
+    "rho-contracts-js": "git+ssh://git@github.com:BrightPowerSoftware/rho-contracts-js.git#v1.3.0",
+    "express-contracts": "git+ssh://git@github.com:BrightPowerSoftware/express-contracts.git#3.0.1"
+```
+making sure to specify the most recent versions of each.
 
-
-Contribute
-----------
-
-- Issue Tracker: github.com/bodylabs/express-contracts/issues
-- Source Code: github.com/bodylabs/express-contracts
-
-Pull requests welcome!
-
-
-Support
--------
-
-If you are having issues, please let us know.
-
-
-License
--------
-
-The project is licensed under the two-clause BSD license.
