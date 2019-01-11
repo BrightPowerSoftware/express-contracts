@@ -1,6 +1,6 @@
 var middleware = require('./middleware'),
     errors = require('./errors'),
-    c = require('rho-contracts-fork'),
+    c = require('rho-contracts-js'),
     express = require('express'),
     request = require('supertest'),
     should = require('should');

@@ -1,4 +1,4 @@
-var c = require('rho-contracts-fork');
+var c = require('rho-contracts-js');
 
 var contracts = require('./contracts'),
     errors = require('./errors');
