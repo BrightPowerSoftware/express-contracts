@@ -31,6 +31,6 @@
     "mocha": "^2.4.3",
     "rho-contracts-js": "git+ssh://git@github.com:BrightPowerSoftware/rho-contracts-js.git#v1.3.0",    
     "should": "^8.3.1",
-    "supertest": "~0.15.0"
+    "supertest": "~7.1.3"
   }
 }
